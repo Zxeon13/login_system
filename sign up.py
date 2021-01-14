@@ -1,6 +1,6 @@
 while True:
     username = input('Enter new Username: ')
-    usernametxt='files/'+username+".txt"
+    usernametxt=username+".txt"
     try:
         if open( usernametxt , 'r'):
             print("This username is taken, plez try again.")
