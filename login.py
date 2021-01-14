@@ -1,6 +1,6 @@
 while True:
     username = input('Enter your Username: ')
-    usernametxt='files/'+username+".txt"
+    usernametxt=username+".txt"
     try:
         if open( usernametxt , 'r'):
             break
